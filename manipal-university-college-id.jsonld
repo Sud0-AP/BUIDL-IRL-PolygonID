@@ -5,14 +5,14 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "CollegeID": {
-          "@id": "contextLink.jsonld#CollegeID",
+        "collegeID": {
+          "@id": "https://raw.githubusercontent.com/Sud0-AP/BUIDL-IRL-PolygonID/master/manipal-university-college-id.jsonld#collegeID",
           "@context": {
             "@version": 1.0,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "vocab.md#",
+            "vocab": "https://github.com/Sud0-AP/BUIDL-IRL-PolygonID/blob/master/manipal-university-college-id-vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "entryDate": {
               "@id": "vocab:collegeID",
