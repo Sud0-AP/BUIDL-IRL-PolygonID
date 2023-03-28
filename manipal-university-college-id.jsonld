@@ -1,0 +1,25 @@
+{
+    "@context": [
+      {
+        "@version": 1.0,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "CollegeID": {
+          "@id": "contextLink.jsonld#CollegeID",
+          "@context": {
+            "@version": 1.0,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "entryDate": {
+              "@id": "vocab:collegeID",
+              "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
