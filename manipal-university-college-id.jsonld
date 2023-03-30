@@ -14,7 +14,7 @@
             "type": "@type",
             "vocab": "https://github.com/Sud0-AP/BUIDL-IRL-PolygonID/blob/master/manipal-university-college-id-vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "entryDate": {
+            "collegeID": {
               "@id": "vocab:collegeID",
               "@type": "xsd:integer"
             }
