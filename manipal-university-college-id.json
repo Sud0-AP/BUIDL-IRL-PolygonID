@@ -116,6 +116,9 @@
           },
           "collegeID": {
             "type": "integer"
+          },
+          "enrolled": {
+            "type": "boolean"
           }
         }
       }
