@@ -6,7 +6,7 @@
         "id": "@id",
         "type": "@type",
         "MUJCollegeID": {
-          "@id": "https://raw.githubusercontent.com/Sud0-AP/BUIDL-IRL-PolygonID/master/manipal-university-college-id.jsonld#collegeID",
+          "@id": "https://raw.githubusercontent.com/Sud0-AP/BUIDL-IRL-PolygonID/master/manipal-university-college-id.jsonld#MUJCollegeID",
           "@context": {
             "@version": 1.1,
             "@protected": true,
@@ -17,6 +17,10 @@
             "collegeID": {
               "@id": "vocab:collegeID",
               "@type": "xsd:integer"
+            },
+            "enrolled": {
+                "@id": "vocab:enrolled",
+                "@type": "xsd:boolean"
             }
           }
         }
